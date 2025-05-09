@@ -36,13 +36,18 @@ The model uses:
 
 ## 🛠 How to Run This App Locally
 
-# Step 1: Clone the repo
-<p>git clone https://github.com/MuhammadUzair17/CO2_Emission_Project.git</p>
-<p>cd CO2_Emission_Project</p>
+# Step 1 : Clone the repo
+git clone https://github.com/MuhammadUzair17/CO2_Emission_Project.git
 
-# Step 2: Install dependencies
+## Step 2: Navigate to the repo
+cd CO2_Emission_Project
+
+## Step 3 : Navigate to the folder
+cd CO2_Emission
+
+# Step 4 : Install dependencies
 pip install -r requirements.txt
 
-# Step 3: Launch the Streamlit app
+# Step 5 : Launch the Streamlit app
 streamlit run co2_app.py
 
