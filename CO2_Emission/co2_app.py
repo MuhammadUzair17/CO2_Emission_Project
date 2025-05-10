@@ -4,7 +4,7 @@ import numpy as np
 import joblib
 
 # Load the trained pipeline
-pipeline = joblib.load('co2_emission_model.pkl')
+pipeline = joblib.load('CO2_Emission/co2_emission_model.pkl')
 
 # Page configuration
 st.set_page_config(page_title="CO₂ Emission Estimator", layout="centered")
